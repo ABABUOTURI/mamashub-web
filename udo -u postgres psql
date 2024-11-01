@@ -1,0 +1,8 @@
+[0;1;32m●[0m postgresql.service - PostgreSQL RDBMS
+     Loaded: loaded (/lib/systemd/system/postgresql.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (exited)[0m since Sat 2024-10-26 04:18:04 EDT; 8min ago
+    Process: 1006 ExecStart=/bin/true (code=exited, status=0/SUCCESS)
+   Main PID: 1006 (code=exited, status=0/SUCCESS)
+
+Oct 26 04:18:04 legend-HP-Laptop-14-cf2xxx systemd[1]: Starting PostgreSQL RDBMS...
+Oct 26 04:18:04 legend-HP-Laptop-14-cf2xxx systemd[1]: Finished PostgreSQL RDBMS.

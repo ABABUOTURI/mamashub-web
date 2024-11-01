@@ -1,0 +1,19 @@
+version: '3'  # Version of Docker Compose
+services:
+  api:
+    build:
+      context: ./api  # Path to your API service Dockerfile
+    ports:
+      - "3000:3000"   # Expose port 3000
+    environment:
+      - NODE_ENV=development  # Example environment variable
+
+  ui:
+    build:
+      context: ./ui  # Path to your UI service Dockerfile
+    ports:
+      - "3001:3000"  # Expose port 3001 for the UI
+  web:
+    image: nginx
+    ports:
+      - "8080:80"
